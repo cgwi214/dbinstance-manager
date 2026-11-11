@@ -1,0 +1,8 @@
+Django==5.2.*
+djangorestframework==3.16.*
+celery==5.5.*
+cryptography>=42.0
+
+# PostgreSQL / Redis 驱动：用 SQLite + eager Celery 跑时可以不要这两个
+psycopg[binary]>=3.2
+redis>=5.0
